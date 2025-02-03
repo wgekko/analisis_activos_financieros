@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy 
 yfinance
-os
 streamlit_multi_menu 
 plotly.graph_objects 
 statsmodels.tsa.arima.model
