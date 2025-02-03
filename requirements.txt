@@ -6,7 +6,6 @@ streamlit_multi_menu
 plotly 
 statsmodels
 scikit-learn
-statsmodels.api 
 tensorflow.keras.models
 tensorflow.keras.layers
 sklearn.preprocessing
