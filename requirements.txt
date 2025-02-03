@@ -9,6 +9,6 @@ scikit-learn
 tensorflow
 keras
 sklearn.preprocessing
-matplotlib.pyplot
+matplotlib
 itertools
 base64
