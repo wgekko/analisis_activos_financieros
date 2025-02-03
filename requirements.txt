@@ -6,8 +6,8 @@ streamlit_multi_menu
 plotly 
 statsmodels
 scikit-learn
-tensorflow.keras.models
-tensorflow.keras.layers
+tensorflow
+keras
 sklearn.preprocessing
 matplotlib.pyplot
 itertools
