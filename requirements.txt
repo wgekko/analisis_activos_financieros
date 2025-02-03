@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy 
 yfinance
-time
 os
 streamlit_multi_menu 
 plotly.graph_objects 
