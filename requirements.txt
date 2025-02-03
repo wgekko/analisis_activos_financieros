@@ -1,0 +1,17 @@
+streamlit
+pandas
+numpy 
+yfinance
+time
+os
+streamlit_multi_menu 
+plotly.graph_objects 
+statsmodels.tsa.arima.model
+sklearn.metrics
+statsmodels.api 
+tensorflow.keras.models
+tensorflow.keras.layers
+sklearn.preprocessing
+matplotlib.pyplot
+itertools
+base64
