@@ -4,7 +4,7 @@ numpy
 yfinance
 streamlit_multi_menu 
 plotly 
-statsmodels.tsa.arima.model
+statsmodels
 sklearn.metrics
 statsmodels.api 
 tensorflow.keras.models
