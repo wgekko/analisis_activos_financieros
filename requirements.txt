@@ -3,7 +3,7 @@ pandas
 numpy 
 yfinance
 streamlit_multi_menu 
-plotly.graph_objects 
+plotly 
 statsmodels.tsa.arima.model
 sklearn.metrics
 statsmodels.api 
