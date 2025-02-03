@@ -5,7 +5,7 @@ yfinance
 streamlit_multi_menu 
 plotly 
 statsmodels
-sklearn
+scikit-learn
 statsmodels.api 
 tensorflow.keras.models
 tensorflow.keras.layers
