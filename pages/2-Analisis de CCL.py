@@ -118,8 +118,8 @@ button {
 """,
     unsafe_allow_html=True,
 )
-columns = st.columns((2, 1, 2))
-if columns[1].button("Calcular", key="glow-on-hover-calcular", use_container_width=True):#, use_container_width=True):
+
+if st.button("Generar Calculo de Probabilidad", key="glow-on-hover-calcular"):#, use_container_width=True):
   ccl/= 11
   #ruedas = 60
   subas_fw = ccl.pct_change(ruedas)*100 
@@ -169,9 +169,8 @@ if st.container(border=True):
     with col2:
         prediction_days = st.number_input("Días/ruedas Bursátiles a Predecir Precio", min_value=1, max_value=30, value=15, step=1, help="valor debe oscilar entre 1/30")
     st.write('---')
-    
-columns = st.columns((2, 1, 2))
-if columns[1].button("Generar Modelo Arima", key="glow-on-arima"):
+
+if st.button("Generar Modelo Arima", key="glow-on-arima"):
     with st.status("Generando calculos...", expanded=True) as status:
         st.write("Dercagando los datos...")
         time.sleep(2)
@@ -302,8 +301,8 @@ if st.container(border=True):
         prediction_day = st.number_input("Días/ruedas Bursátiles a Predecir Precio", min_value=1, max_value=30, value=15, step=1, help="Valor debe oscilar entre 1/30")
     st.write('---')
     
-    columns = st.columns((2, 1, 2))
-    if columns[1].button("Generar Modelo LSTM ", key="glow-on-lstm"):
+  
+    if st.button("Generar Modelo LSTM ", key="glow-on-lstm"):
     #if st.button("Click para Generar Modelo LSTM ", key="glow-on-lstm"):
         with st.status("Generando Modelo LSTM...", expanded=True) as status:
             st.write("Buscando datos...")
@@ -571,10 +570,9 @@ def main():
         with col2:
             # Intervalo de tiempo
             interval = st.selectbox("Seleccionar intervalo de tiempo", ['1d', '5d', '1wk', '1mo', '3mo'], index=0, help="Debe seleccionar entre 1 día y 3 meses")
-        st.write("---")
+        st.write("---")        
         
-        columns = st.columns((1,1,2,1))
-        if columns[2].button("Generar Modelo de Regresión", key="glow-on-reg"):
+        if st.button("Generar Modelo de Regresión", key="glow-on-reg"):
             
             with st.status("Descargando datos...", expanded=True) as status:
                 st.write("Completando los datos...")
