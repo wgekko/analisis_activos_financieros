@@ -9,7 +9,7 @@ textColor="#CBC917"
 font="sans serif"
 
 
-
+link del demo de la app : https://financial-asset-analytics.streamlit.app/
 
 
 
